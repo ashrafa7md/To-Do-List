@@ -55,6 +55,11 @@
         font-size: large;
 	cursor: pointer;
       }
+	@media(min-width:700px) and (max-width:900px){
+	.add{
+	font-size: small;
+	}
+	}
       .task {
         display: flex;
         width: 90%;
@@ -78,6 +83,24 @@
         align-items: center;
 	cursor: pointer;
       }
+	@media(max-width:700px){
+	.taskForm{
+	flex-direction: column;
+	width: 90%;
+    	padding: 15px;
+	}
+	#inp {
+   	 width: 95%;
+    	margin-bottom: 3%;
+	}
+	.add{
+	width: 40%;
+	}
+	.del{
+	width: 20%;
+    	font-size: small;
+	}
+	}
     </style>
   </head>
   <body>
